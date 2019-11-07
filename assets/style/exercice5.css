@@ -1,0 +1,98 @@
+#desertEgyptien {
+    height: 350px;
+    background-image: url("../img/desertEgyptien.jpg");
+    background-size: cover;
+}
+
+#centerText {
+    text-align: center;
+    padding-top: 15%;
+}
+
+html {
+    font: 1.1em sans-serif;
+}
+#recherche{
+    margin-left: 93%;
+}
+#boutonRecherche{
+    margin-left: 60%;
+}
+#color{
+    background-color: aqua;
+}
+
+ul {
+    display: table;
+    width: 100%;
+    margin: 10px auto;
+    padding: 0;
+}
+
+ul li {
+    display: table-cell;
+}
+.couleurPar{
+    background-color: blueviolet;
+    width: 60%;
+}
+#margin{
+    margin-left: 200px;
+    height: 10px;
+}
+.couleurText{
+    color: black;
+    text-decoration: none;
+}
+#Bloc1{
+    text-align: center;
+    margin-top: 40px;
+    height: 100px;
+    width: 33.3%;
+    float: left;
+}
+#photoMer{
+    width: 400px;
+    height: 300px;
+}
+#Bloc2{
+    text-align: center;
+    margin-top: 40px;
+    height: 100px;
+    width: 33.3%;
+    float: left;
+}
+#photoMontagne{
+    width: 400px;
+    height: 300px;
+}
+#Bloc3{
+    text-align: center;
+    margin-top: 40px;
+    height: 100px;
+    width: 33.3%;
+    float: left;
+}
+#photoCampagne{
+    width: 400px;
+    height: 300px;
+}
+@media all and (max-width: 480px) {
+#Bloc1{
+    float : none;
+    height: auto;
+}
+#Bloc2{
+    float : none;
+    height: auto;
+}
+#Bloc3{
+    float: none;
+    height: auto;
+}
+#margin{
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+}
+}
